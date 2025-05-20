@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vroom Vault - Produtos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="cabeçalho">
+        <header>
+            <p>Vroom Vault</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="LojaDeHotWheels.html">Página Principal</a></li>
+                <li><a href="#">Os Nossos Produtos</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="contact.html">Contactar</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="info-text2">
+        <h1>Produtos</h1>
+        <p>Listagem dso produtos que temos. <b>Não perca as novidades!</b></p>
+    </div>
+    <div class="body-produto">
+    <div class="add-produtos">
+        <p>Adicionar Produtos:</p>
+        <input placeholder="Nome" id="add-nome-produto">
+        <input id="add-img-produto" placeholder="http://"/>
+        <input type="button" value="submit" onclick="mostraProduto()">
+    </div>
+    <div id="showcase-text1">
+        <p>Produtos Originais:</p>
+    </div>
+    <div class="og-produtos1">
+        <div id="produto-num1">
+            <div class="produto-showcase">
+                <img id="imagem1" class="car-og" src="/Programação Web/Projeto1/Imagens/4581490b.jpg" alt="">
+                <p id="nome1">carro bue fixe</p>
+                <input type="button" value="editar" onclick="editar1()">
+                <br>
+                <input type="button" value="eliminar" onclick="eliminar1()">
+            </div>
+        </div>
+        <div id="produto-num2">
+            <div class="produto-showcase">
+                <img id="imagem2" class="car-og" src="/Programação Web/Projeto1/Imagens/46e235e6-207b-4f91-a9e4-3e624c518475_1.1894f102783d120371a2c47d83528c46.webp" alt="">
+                <p id="nome2">carro feio</p>
+                <input type="button" value="editar" onclick="editar2()">
+                <br>
+                <input type="button" value="eliminar" onclick="eliminar2()">
+            </div>
+        </div>
+        <div id="produto-num3">
+            <div class="produto-showcase">
+                <img id="imagem3" class="car-og1" src="/Programação Web/Projeto1/Imagens/6885284_57_W500_H652.avif" alt="">
+                <p id="nome3">carro</p>
+                <input type="button" value="editar" onclick="editar3()">
+                <br>
+                <input type="button" value="eliminar" onclick="eliminar3()">
+            </div>
+        </div>
+        <div id="produto-num4">
+            <div class="produto-showcase">
+                <img id="imagem4" class="car-og" src="/Programação Web/Projeto1/Imagens/images.jpg" alt="">
+                <p id="nome4">carro ultra fixe</p>
+                <input type="button" value="editar" onclick="editar4()">
+                <br>
+                <input type="button" value="eliminar" onclick="eliminar4()">
+            </div>
+        </div>
+        <div id="produto-num5">
+            <div class="produto-showcase">
+                <img id="imagem5" class="car-og" src="/Programação Web/Projeto1/Imagens/img_341965_9f4dacaa00022b81db41ffa7f4ed0bff_20.jpg" alt="">
+                <p id="nome5">carro todo coiso</p>
+                <input type="button" value="editar" onclick="editar5()">
+                <br>
+                <input type="button" value="eliminar" onclick="eliminar5()">
+            </div>
+        </div>
+        <div id="produto-num6">
+            <div class="produto-showcase">
+                <img id="imagem6" class="car-og2" src="/Programação Web/Projeto1/Imagens/istockphoto-545788626-612x612.jpg" alt="">
+                <p id="nome6">carro fixolas 👍</p>
+                <input type="button" value="editar" onclick="editar6()">
+                <br>
+                <input type="button" value="eliminar" onclick="eliminar6()">
+            </div>
+        </div>
+        <div id="produto-num7">
+            <div class="produto-showcase">
+                <img id="imagem7" class="car-og3" src="/Programação Web/Projeto1/Imagens/s-l1200.png" alt="">
+                <p id="nome7">melhor carro</p>
+                <input type="button" value="editar" onclick="editar7()">
+                <br>
+                <input type="button" value="eliminar" onclick="eliminar7()">
+            </div>
+        </div>
+        <div id="produto-num8">
+            <div class="produto-showcase">
+                <img id="imagem8" class="car-og4" src="/Programação Web/Projeto1/Imagens/-hot-wheels-colour-crashers-assorted-160e1567-08a1-4c06-9b21-a00e080ac1ee-jpgrendition.jpg" alt="">
+                <p id="nome8">sheeeeeeeeeeeee</p>
+                <input type="button" value="editar" onclick="editar8()">
+                <br>
+                <input type="button" value="eliminar" onclick="eliminar8()">
+            </div>
+        </div>
+    </div>
+    <p>Outros Produtos Originais:</p>
+    <div class="og-produtos2">
+        <div id="produto-num9">
+            <div class="outro-produto-showcase">
+                <img id="imagem9" class="product-og" src="/Programação Web/Projeto1/produtos/4582712b.jpg" alt="">
+                <p id="nome9">pista fixe</p>
+                <input type="button" value="editar" onclick="editar9()">
+                <br>
+                <input type="button" value="eliminar" onclick="eliminar9()">
+            </div>
+        </div>
+        <div id="produto-num10">
+            <div class="outro-produto-showcase">
+                <img id="imagem10" class="product-og2" src="/Programação Web/Projeto1/produtos/b6d65048-1262-4f75-9738-b3bb25dce9a5.jpg_720.jpeg" alt="">
+                <p id="nome10">não sei bem oque chamar isto</p>
+                <input type="button" value="editar" onclick="editar10()">
+                <br>
+                <input type="button" value="eliminar" onclick="eliminar10()">
+            </div>
+        </div>
+        <div id="produto-num11">
+            <div class="outro-produto-showcase">
+                <img id="imagem11" class="product-og" src="/Programação Web/Projeto1/produtos/hot-wheels-vertical-power-launch-classic-stunt-set-main.webp" alt="">
+                <p id="nome11">rampa fixe</p>
+                <input type="button" value="editar" onclick="editar11()">
+                <br>
+                <input type="button" value="eliminar" onclick="eliminar11()">
+            </div>
+        </div>
+        <div id="produto-num12">
+            <div class="outro-produto-showcase">
+                <img id="imagem12" class="product-og" src="/Programação Web/Projeto1/produtos/jzraragmdwu2b10w2nhy.avif" alt="">
+                <p id="nome12">simulador de tar mal disposto</p>
+                <input type="button" value="editar" onclick="editar12()">
+                <br>
+                <input type="button" value="eliminar" onclick="eliminar12()">
+            </div>
+        </div>
+    </div>
+    <p>Produtos Adicionais:</p>
+    <div class="listaProdutos" id="listaProdutos">
+        
+        
+    </div>
+    </div>
+    <footer>
+        <p>@2025 notMattel</p>
+    </footer>
+</body>
+</html>
