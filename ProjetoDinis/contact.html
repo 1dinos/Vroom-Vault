@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vroom Vault - Contactos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="cabeçalho">
+        <header>
+            <p>Vroom Vault</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="LojaDeHotWheels.html">Página Principal</a></li>
+                <li><a href="produtos.html">Os Nossos Produtos</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Contactar</a></li>
+            </ul>
+            
+        </nav>
+    </div>
+    <div class="info-text">
+        <h1>Contactos</h1>
+        <p>Se tiver algum problema, consegue contactar-nos facilmente aqui em baixo.</p>
+    </div>
+    <form>
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <br>
+            <input type="text" id="nome">
+            <p>Email</p>
+            <input type="email" id="email">
+            <p>Assunto</p>
+            <select name="escolha" id="escolha">
+            <option value="">Escolha uma</option>
+            <option value="Suporte Técnico">Suporte Técnico</option>
+            <option value="Vendas">Vendas</option>
+            <option value="Feedback">Feedback</option>
+            </select>
+            <br>
+            <p>Mensagem</p>
+            <textarea name="mensagem" id="mensagem" rows="10" cols="40" itemid="mensagem"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Enviar" class="form-enviar" onclick="enviar()">
+            <br>
+            <br>
+        </div>
+    </form>
+    <footer>
+        <p>@2025 notMattel</p>
+    </footer>
+</body>
+</html>
